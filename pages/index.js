@@ -1,65 +1,59 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Head from "next/head";
+import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Tech Sphere | Home</title>
+        <link rel="icon" href="/logo_2.png" />
       </Head>
-
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome To{" "}
+          <a href="http://venturetechlab.com/">Tech Sphere Software</a>
         </h1>
-
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+          Special thanks to <code className={styles.code}>Abroad</code>
         </p>
 
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+        <div>
+          <hr />
+          <h2 className={styles.textCenter}>
+            Clear, Concise, Comprehensive, and Practical with No Fluff!
+          </h2>
+          <hr />
+          <br />
+          <br />
+          <h3>👉Simple and Beginner friendly</h3>
+          <p>
+            Time and time again, Mosh's students praise his ability to break
+            down complex topics into simple, digestible lessons that anyone can
+            understand.
+          </p>
+          <h3>👉Clear and Concise Lessons</h3>
+          <p>
+            Don't waste any more time on long, repetitive, and poorly-structured
+            courses. Mosh's lessons are concise, right to the point, and free of
+            rambling and unnecessary buzzwords. Everything explained in plain
+            English.
+          </p>
+          <h3>👉Learn from a True Expert</h3>
+          <p>
+            Benefit from Bhavesh and Ritham two decades of experience in the
+            industry. Not only does he explain the whats, whys, and hows, he
+            also shares tons of tips and tricks that help you code faster and
+            with more confidence. Something that would take you years to learn
+            on the job.
+          </p>
+          <h3>👉Prepare for Jobs and Interviews</h3>
+          <p>
+            Bhavesh and Ritham perfectly organized, in-depth, and comprehensive
+            courses are packed with real-world examples and exercises that
+            prepare you for the job.
+          </p>
         </div>
       </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
     </div>
-  )
+  );
 }
