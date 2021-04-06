@@ -1,4 +1,3 @@
-import Image from "next/image";
 const Footer = () => {
   return (
     <footer className="text-center mb-5">

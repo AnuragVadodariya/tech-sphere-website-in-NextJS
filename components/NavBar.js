@@ -6,7 +6,13 @@ const NavBar = () => {
     <Navbar bg="light" expand="lg" className="w-100 mt-2">
       <Link href="/">
         <>
-          <Image className="mx-2" src="/logo.png" width={130} height={80} />
+          <Image
+            className="mx-2"
+            src="/logo.png"
+            width={130}
+            height={80}
+            alt="company-logo"
+          />
           <Navbar.Brand>Tech Sphere Software</Navbar.Brand>
         </>
       </Link>
